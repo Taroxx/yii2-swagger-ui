@@ -1,13 +1,13 @@
 {
-    "name": "developit/yii2-persian-slug",
-    "description": "yii2 persian slug",
+    "name": "yiiisoft/yii2SwaggerUi",
+    "description": "yii2 yii2SwaggerUi",
     "type": "yii2-extension",
     "keywords": ["yii2","extension"],
     "license": "LGPL-3.0+",
     "authors": [
         {
-            "name": "ehsan rezaei",
-            "email": "mr.rezaee121@gmail.com"
+            "name": "jakob",
+            "email": "mr.jakob@gmail.com"
         }
     ],
     "require": {
@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "developit\\slug\\": ""
+            "yiiisoft\\yii2SwaggerUi\\": ""
         }
     }
 }
