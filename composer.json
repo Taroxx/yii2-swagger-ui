@@ -1,40 +1,21 @@
 {
-  "name": "swagger-api/swagger-ui",
-  "description": " Swagger UI is a collection of HTML, Javascript, and CSS assets that dynamically generate beautiful documentation from a Swagger-compliant API.",
-  "keywords": [
-    "Swagger",
-    "OpenAPI",
-    "specification",
-    "documentation",
-    "API",
-    "UI"
-  ],
-  "homepage": "http://swagger.io",
-  "license": "Apache-2.0",
-  "authors": [
-    {
-      "name": "Anna Bodnia",
-      "email": "anna.bodnia@gmail.com"
+    "name": "developit/yii2-persian-slug",
+    "description": "yii2 persian slug",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "LGPL-3.0+",
+    "authors": [
+        {
+            "name": "ehsan rezaei",
+            "email": "mr.rezaee121@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
     },
-    {
-      "name": "Buu Nguyen",
-      "email": "buunguyen@gmail.com"
-    },
-    {
-      "name": "Josh Ponelat",
-      "email": "jponelat@gmail.com"
-    },
-    {
-      "name": "Kyle Shockey",
-      "email": "kyleshockey1@gmail.com"
-    },
-    {
-      "name": "Robert Barnwell",
-      "email": "robert@robertismy.name"
-    },
-    {
-      "name": "Sahar Jafari",
-      "email": "shr.jafari@gmail.com"
-    }    
-  ]
+    "autoload": {
+        "psr-4": {
+            "developit\\slug\\": ""
+        }
+    }
 }
